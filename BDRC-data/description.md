@@ -46,7 +46,7 @@
 1. Remove the noise in segment bounding boxes 
 2. Convert to PAGE XML
 
-For instance the noise `<ལྕ>` or `\u0f63\u0f95` appears at the start of the segment [\u0f63\u0f95\u0f66\u0f7c\u0f53\u0f0b\u0f5e\u0f72\u0f44\u0f0b](https://github.com/OpenPecha/transcribed-lines-collector/blob/932fd2d5c08af9a6a4bd33f952b707623ec9cd76/BDRC-data/I1PD1088180005.json#L189) as well as in the symbols [\u0f63\u0f95](https://github.com/OpenPecha/transcribed-lines-collector/blob/932fd2d5c08af9a6a4bd33f952b707623ec9cd76/BDRC-data/I1PD1088180005.json#L4999-L5044).
+For instance the noise `<ལྕ>` or `\u0f63\u0f95` appears at the start of the segment `ལྕསོན་ཞིང་` or [\u0f63\u0f95\u0f66\u0f7c\u0f53\u0f0b\u0f5e\u0f72\u0f44\u0f0b](https://github.com/OpenPecha/transcribed-lines-collector/blob/932fd2d5c08af9a6a4bd33f952b707623ec9cd76/BDRC-data/I1PD1088180005.json#L189) as well as in the symbols [\u0f63\u0f95](https://github.com/OpenPecha/transcribed-lines-collector/blob/932fd2d5c08af9a6a4bd33f952b707623ec9cd76/BDRC-data/I1PD1088180005.json#L4999-L5044).
 
-The bounding boxes of the segment need to be edited to remove the noise and match the corrected unicode
+The bounding boxes of the segment need to be edited to remove the noise and match the `སོན་ཞིང་`
 
