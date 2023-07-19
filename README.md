@@ -7,7 +7,7 @@ This repo lists various datasets to train Tibetan OCR models. It contains sample
 - 
 
 ### MonlamAI data
-- [Google OCR with post-processing](https://github.com/OpenPecha/transcribed-lines-collector/blob/main/BDRC-data/description.md) - this dataset requires bounding box correction based on the corrected Unicode text
+- [proofread and reviewed line to text annotations ](https://github.com/OpenPecha/transcribed-lines-collector/blob/main/MonlamAI-data/description.md) - this dataset requires filtering of the only accepted annotations
 
 ### ERC Tibschol data on Transkribus
 - 
