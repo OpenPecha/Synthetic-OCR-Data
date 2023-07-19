@@ -1,10 +1,16 @@
-# Synthetic-OCR-Data
+# Transcribed Lines Collector
+This repo lists various datasets to train Tibetan OCR models. It contains sample datasets together with many-to-PAGE XML conversion scripts. We chose PAGE XML as the standard format as it is used by many projects.
 
+## Datasets
+### BDRC data
+- [Google OCR with post-processing](https://github.com/OpenPecha/transcribed-lines-collector/blob/main/BDRC-data/description.md) - this dataset requires bounding box correction based on the corrected Unicode text
+- 
 
-1. "hard training data" - images of lines transcribed manually or semi-automatically (line to text)
-   - Lhasa kangyur 10 batches
-   - Queenie's data about 2 million page images
-       - we have the google OCRed etext proofread and BDRC page images
-3. Synthetic data generated with fonts where we generate the images from Unicode text
-4. Synthetic data generated with fonts specially created for this using glyphs automatically extracted from scanned images
-5. Synthetic data generated with style transfer (i.e. taking a modern printed page and turning it into a synthetic woodblock page by transferring the style from woodblock images)
+### MonlamAI data
+- [Google OCR with post-processing](https://github.com/OpenPecha/transcribed-lines-collector/blob/main/BDRC-data/description.md) - this dataset requires bounding box correction based on the corrected Unicode text
+
+### ERC Tibschol data on Transkribus
+- 
+
+### Esukhia data on Transkribus
+- 
